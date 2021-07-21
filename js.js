@@ -133,7 +133,7 @@ async function searchClick(){
 
 getWeatherAndSetData()
 search_button.addEventListener("click", searchClick)
-
+document.getElementById('main_logo').addEventListener("click", () => window.open('andrii36.github.io/weatherApp'))
 for(let i=1; i<6; i++){
 	document.getElementById(`item_city${i}`).addEventListener("click", () => {
 		document.getElementById('main_search').value = document.getElementById(`item_city${i}`).innerText
