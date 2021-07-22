@@ -3,12 +3,12 @@ let {log} = console
 let search_button = document.getElementById("search_button")
 
 function getWeatherByCity(cityName){
-	return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=e9822466c14f5a61fb03c57fe3601e20&units=imperial`)
+	return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=&units=imperial`)
   .then(response => response.json())
  }
 
  function getWeatherDaily(lat, lon){
-	return fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=e9822466c14f5a61fb03c57fe3601e20&exclude=current,minutely,hourly,alerts&units=imperial`)
+	return fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=&exclude=current,minutely,hourly,alerts&units=imperial`)
   .then(response => response.json())
  }
 
