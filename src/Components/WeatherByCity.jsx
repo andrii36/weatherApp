@@ -5,7 +5,7 @@ import { useLocation } from 'react-router'
 import DailyWeatherItem from './DailyWeatherItem'
 
 function WeatherByCity ({dailyData, ...props}){
-
+  
   let {pathname} = useLocation()
   let cityName = pathname.split('/')[2]
 

@@ -4,7 +4,7 @@ import FrontPage from './Components/FrontPage';
 import Header from './Components/Header.jsx'
 import WeatherByCity from './Components/WeatherByCity';
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <Header/>
