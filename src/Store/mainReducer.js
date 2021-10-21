@@ -1,4 +1,3 @@
-//state
 let initialState = {
     info: [],
     infoByCityDaily: null,
