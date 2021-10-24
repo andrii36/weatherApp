@@ -11,14 +11,14 @@ function DailyWeatherItem (props){
               <div className="list_date_block">
                 <span>{props.date}</span>
               </div>
-              <div className="search_list_avg_temp">{props.dailyData.temp.day} F</div>
+              <div className="search_list_avg_temp">{Math.floor(props.dailyData.temp.day)} F</div>
               <div>
                 <div>{props.dailyData.weather[0].main}</div>
               </div>
               <div>
-                <span>{props.dailyData.temp.max} F</span>
+                <span>{Math.floor(props.dailyData.temp.max)} F</span>
                 <div className="thermometer"><img src={thermometer}/></div>
-                <span>{props.dailyData.temp.max} F</span>
+                <span>{Math.floor(props.dailyData.temp.min)} F</span>
               </div>
               <div>
                 <div>Humidity</div>
