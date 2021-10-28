@@ -1,3 +1,9 @@
+*Introduction
+This web application is created for study purposes. It is a simple application to check weather in any city of the world. All information is provided by https://openweathermap.org/api. It's a free weather API service
+
+*Technologies
+JavaScript, HTML, CSS, React, Redux, React-Redux, React-Router-Dom, RestApi, React hooks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
